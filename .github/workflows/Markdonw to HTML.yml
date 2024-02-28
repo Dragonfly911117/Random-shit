@@ -16,8 +16,9 @@ jobs:
       - name: Convert Markdown to HTML with GitHub Style
         uses: natescherer/markdown-to-html-with-github-style-action@v1.1.0
         with:
-          markdown_path: "Jetbrains CLion 簡述"
-          html_output_path: "out"
+          path: README.md,Jetbrains CLion 簡述/Jetbrains CLion 使用.md
+          outputpath: out
+          matchpathstructure: true
 
       - name: Commit and Push Changes
         run: |
