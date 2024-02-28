@@ -7,10 +7,10 @@ on:
 
 jobs:
   Job:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Convert Markdown to HTML
         uses: natescherer/markdown-to-html-with-github-style-action@v1.1.0
         with:
-          path: README.md,CHANGELOG.md,docs\doc1.md
+          path: README.md,Jetbrains CLion 簡述/Jetbrains CLion 使用.md
           outputpath: out
