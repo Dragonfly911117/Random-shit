@@ -23,9 +23,8 @@ jobs:
           images_dir: docs/assets
           output_dir: out
           build_html: true
-          build_pdf: true
       - uses: actions/upload-artifact@v3
         with:
-          name: docs
-          path: out
+          name: docs/*
+          path: out/*
 
