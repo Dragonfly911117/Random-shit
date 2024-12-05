@@ -13,4 +13,4 @@
 
 #### Script
 - [scoop_update_checker.ps1](/code/script/ps1/scoop_update_checker.ps1): Script to pop a Winodws notification if there are packages to update.
-- [update_cmake_source_files.zsh](/code/scipt/zsh/update_cmake_source_files.zsh): Script updating CMake SRC_FILES varaiable. 
+- [update_cmake_source_files.zsh](/code/script/zsh/update_cmake_source_files.zsh): Script updating CMake SRC_FILES varaiable. 
